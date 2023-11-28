@@ -1,0 +1,488 @@
+/* MARK HEADER */
+
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: min-content;
+  }
+
+  .navigation-header img{
+    width: 50px;
+    height: 50px;
+  }
+  
+  .navigation {
+    display: flex;
+    gap: 10px;
+    margin: 0px 20px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .navigation li {
+    list-style: none;
+  }
+  .navigation li {
+    border: 2px solid rgb(61, 59, 59);
+    float: left;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border-right: 1px #909090 solid;
+  }
+  
+  .navigation li:hover {
+    cursor: pointer;
+    font-size: larger;
+    background-color: rgb(140, 167, 182);
+  }
+  
+  .logo {
+    filter: saturate(100%) brightness(100%);
+    margin-left: 50px;
+  }
+  
+  hr {
+    height: 0.5px;
+    border: 0 none;
+    border-top: 1px solid #ccc;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .title-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    margin-bottom: 50px;
+  }
+  
+  #title-motto {
+    font-weight: lighter;
+    color: #a2acb4;
+  }
+  
+  /* MARK MAIN */
+  body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+      background-color: #ebe1e1;
+  }
+  
+  #main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-flow: row wrap;
+    width: fit-content;
+    margin: 0px 40px 0px 40px;
+  }
+  
+  .review-section {
+    flex: 1 1 0;
+  }
+  
+  .slider img {
+    max-width: 100%;
+    max-height: 50%;
+    border-radius: 8px;
+    border-style: groove;
+  }
+  
+  .slider {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 20px 10px -10px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -20px;
+  }
+  
+  .review-message {
+    font-style: italic;
+    color: rgb(99, 102, 104);
+    margin: 15px 20px;
+  }
+  
+  .review-profile {
+    display: flex;
+    gap: 30px;
+    align-content: flex-end;
+    margin: 20px 30px;
+  }
+  
+  .review-profile div em {
+    color: rgb(98, 100, 100);
+  }
+  
+  .review-benefit {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 5px 30px;
+  }
+  
+  .message-us {
+    flex: 1 1 0;
+    background-color: rgb(233, 236, 240);
+    border-radius: 8px;
+    padding: 12px 25px;
+  }
+  
+  .form-header {
+    margin: 20px 25px;
+  }
+  
+  h5 {
+    color: grey;
+    font-weight: 200;
+  }
+  
+  .input-message-us {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 25px;
+  }
+  
+  .send-button {
+    background-color: black;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    padding: 14px 0px;
+    border-radius: 6px;
+  }
+  
+  .send-button:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .text-input {
+    padding: 10px;
+  }
+  
+  select option:disabled {
+    color: blue;
+    font-weight: bold;
+  }
+  
+  #package-title {
+    background-color: rgb(233, 236, 240);
+    text-align: center;
+    height: 50%;
+    line-height: 100px;
+    width: 100%;
+  }
+
+  #package-title:hover{
+    background-color: rgb(146, 192, 238);
+  }
+  
+  .package  {
+    display: flex;
+    margin-left: 30px;
+  }
+
+  .package li{ 
+    list-style-type: none;
+  }
+
+  .package img{
+    width: 10%;
+    border-radius: 10px;
+    
+  }
+
+  .package img:hover{
+    cursor: pointer;
+    width: 40%;
+    border-style: groove;
+    border-radius: 10px 10px 10px;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: width 90ms;
+     
+    box-shadow: rgba(75, 75, 255, 0.25) 0px 20px 10px -10px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -20px;
+    
+    
+  }
+
+
+
+  .package-image{
+    display: flex;
+    align-items: center;
+  }
+  
+.package span{
+  font-size: 19px;
+}
+
+.package p  {
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+
+}
+
+
+  h6 {
+    margin: 0px;
+    margin-top: 5px;
+  }
+
+  h6:hover{
+    background-color: plum;
+  }
+  
+  /* MARK FOOTER */
+  #footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .call-button {
+    background-color: black;
+    color: white;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    width: 200px;
+    height: 50px;
+    margin: 20px 0px 50px 0px;
+  }
+  
+  .call-button:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .service-policy {
+    display: flex;
+    flex-direction: row;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    gap: 20px;
+  }
+
+  /* 400px screen*/
+
+
+  @media only screen and (max-width: 400px) {
+    body  {
+      margin: auto;
+      padding: auto;
+      font-size: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: rgb(55, 221, 221);
+    }
+  }
+
+  /* 600px screen*/
+  @media only screen and (max-width: 600px)  {
+    body  {
+      color: aliceblue;
+      margin: auto;
+      padding: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-color: rgb(54, 46, 46);
+    }
+    .message-us {
+      background-color: rgb(48, 41, 41);
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: rgb(241, 185, 185);
+    }
+
+    #package-title  {
+      background-color: #a2acb4;
+    }
+
+    .package img{
+     width: 20%;
+     display: -webkit-box;
+     display: flex;
+     justify-content: center;
+    }
+
+    .package  {
+      flex-wrap: wrap;
+      margin-left: 40px;
+      text-align: centers;
+    }
+
+    .package img{
+      margin-left: 80px;
+    }
+
+    .package img:hover{
+      position: relative;
+      display: flex;
+      transition: ease-in 10ms;
+    
+      
+    }
+
+    .babel {
+      margin-left: 50px;
+    }
+
+    .bali{
+      margin-left: 95px;
+    }
+
+    .jepang {
+      margin-left: 75px;
+    }
+
+    .maldives {
+      margin-left: 73px;
+    }
+
+    .labuan {
+      margin-left: 55px;
+    }
+
+    #footer-section {
+      text-align: center;
+    }
+
+  }
+
+
+  /*Untuk Iphone 14 Pro Max */
+  @media only screen and (max-width: 500px)  {
+    body  {
+      background-color: black;
+      color: rgb(140, 164, 185);
+      margin: auto;
+      padding: auto;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+    
+    }
+    .message-us {
+      background-color: rgb(48, 41, 41);
+    }
+
+    .navigation a {
+      text-decoration: none;
+      color: rgb(241, 185, 185);
+    }
+
+    #package-title  {
+      background-color: #282a2c;
+    }
+
+    #package-title:hover{
+      background-color: #4b535c;
+    }
+
+    .package img{
+     width: 20%;
+     display: -webkit-box;
+     display: flex;
+     justify-content: center;
+    }
+
+    .package  {
+      flex-wrap: wrap;
+      margin-left: 30px;
+      text-align: centers;
+    }
+
+    .package img{
+      margin-left: 80px;
+    }
+
+    .package img:hover{
+      position: relative;
+      display: flex;
+      transition: ease-in 10ms;
+    
+      
+    }
+
+
+
+    .babel {
+      margin-left: 40px;
+    }
+
+    .bali{
+      margin-left: 93px;
+    }
+
+    .jepang {
+      margin-left: 75px;
+    }
+
+    .maldives {
+      margin-left: 70px;
+    }
+
+    .labuan {
+      margin-left: 55px;
+    }
+
+    #footer-section {
+      text-align: center;
+      font-size: 10px;
+      color: aliceblue;
+    }
+
+    #footer-section img{
+      width: 20px;
+      height: 20px;
+      background: transparent;
+      border-radius: 30px;
+    }
+
+    .navigation-header{
+      display: inline;
+      float: inline-start;
+      margin-left: 15px;
+    }
+
+    .navigation-header img{
+      margin-left: 169px;
+    } 
+
+  }
+
+
+
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
