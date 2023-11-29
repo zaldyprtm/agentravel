@@ -60,4 +60,4 @@ function slider()   {
 
     img.innerHTML = "<img src=" + images[startImage - 1] + ">";
 }
-setInterval(slider, 2000);
+setInterval(slider, 3000);
