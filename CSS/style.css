@@ -364,7 +364,7 @@
 
 
   /*Untuk Iphone 14 Pro Max */
-  @media only screen and (max-width: 500px)  {
+  @media only screen and (max-width: 600px)  {
     body  {
       background-color: black;
       color: rgb(140, 164, 185);
@@ -406,7 +406,7 @@
     }
 
     .package img{
-      margin-left: 80px;
+      margin-left: 50px;
     }
 
     .package img:hover{
@@ -417,26 +417,28 @@
       
     }
 
-
-
     .babel {
-      margin-left: 40px;
+      margin-left: 10px;
     }
 
     .bali{
-      margin-left: 93px;
+      margin-left: 55px;
     }
 
     .jepang {
-      margin-left: 75px;
+      margin-left: 40px;
     }
 
     .maldives {
-      margin-left: 70px;
+      margin-left: 35px;
     }
 
     .labuan {
-      margin-left: 55px;
+      margin-left: 20px;
+    }
+
+    .package p{
+      margin-right: 30px;
     }
 
     #footer-section {
@@ -455,16 +457,36 @@
     .navigation-header{
       display: inline;
       float: inline-start;
-      margin-left: 15px;
+      margin-left: -15px;
     }
 
     .navigation-header img{
       margin-left: 169px;
     } 
 
+    .review-benefit li{
+      text-wrap: wrap;
+      margin-left: -25px;
+    }
+
+    #main-section {
+      margin-left: 32px;
+    }
+
+    .review-profile img{
+      background: transparent;
+    }
+
+    #footer-section img{
+      width: 20px;
+      object-fit: contain;
+      background: transparent;
+      border-radius: 30px;
+    }
+
   }
 
-  /* for 300px xiami phone */
+  /* for 300px xiami phone 
   body  {
     background-color: black;
     color: rgb(140, 164, 185);
@@ -475,6 +497,20 @@
     flex-wrap: wrap;
   
   }
+
+  #main-section {
+    margin-left: 32px;
+  }
+
+  .review-profile{
+    width: 10px;
+    color: wheat;
+  }
+
+  .review-benefit li{
+    margin-left: -25px;
+  }
+
   .message-us {
     background-color: rgb(48, 41, 41);
   }
@@ -484,8 +520,10 @@
     color: rgb(241, 185, 185);
   }
 
-  #package-title  {
+  #package-title h2 {
     background-color: #282a2c;
+    height: 15px;
+    padding-bottom: 90px;
   }
 
   #package-title:hover{
@@ -493,7 +531,7 @@
   }
 
   .package img{
-   width: 20%;
+   width: 30%;
    display: -webkit-box;
    display: flex;
    justify-content: center;
@@ -501,12 +539,13 @@
 
   .package  {
     flex-wrap: wrap;
-    margin-left: 30px;
+    margin-left: 3px;
     text-align: centers;
+    justify-content: center;
   }
 
   .package img{
-    margin-left: 80px;
+    margin-left: 65px;
   }
 
   .package img:hover{
@@ -520,34 +559,35 @@
 
 
   .babel {
-    margin-left: 40px;
+    margin-left: 35px;
   }
 
   .bali{
-    margin-left: 93px;
+    margin-left: 85px;
   }
 
   .jepang {
-    margin-left: 75px;
-  }
-
-  .maldives {
     margin-left: 70px;
   }
 
+  .maldives {
+    margin-left: 65px;
+  }
+
   .labuan {
-    margin-left: 55px;
+    margin-left: 47px;
   }
 
   #footer-section {
+    text-wrap: wrap;
     text-align: center;
-    font-size: 10px;
+    font-size: 7px;
     color: aliceblue;
   }
 
   #footer-section img{
     width: 20px;
-    height: 20px;
+    object-fit: contain;
     background: transparent;
     border-radius: 30px;
   }
@@ -565,26 +605,3 @@
 
 
 
-
-
-
-  /* For desktop: */
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 100%;
-  }
-}
