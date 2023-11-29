@@ -464,6 +464,108 @@
 
   }
 
+  /* for 300px xiami phone */
+  body  {
+    background-color: black;
+    color: rgb(140, 164, 185);
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+  }
+  .message-us {
+    background-color: rgb(48, 41, 41);
+  }
+
+  .navigation a {
+    text-decoration: none;
+    color: rgb(241, 185, 185);
+  }
+
+  #package-title  {
+    background-color: #282a2c;
+  }
+
+  #package-title:hover{
+    background-color: #4b535c;
+  }
+
+  .package img{
+   width: 20%;
+   display: -webkit-box;
+   display: flex;
+   justify-content: center;
+  }
+
+  .package  {
+    flex-wrap: wrap;
+    margin-left: 30px;
+    text-align: centers;
+  }
+
+  .package img{
+    margin-left: 80px;
+  }
+
+  .package img:hover{
+    position: relative;
+    display: flex;
+    transition: ease-in 10ms;
+  
+    
+  }
+
+
+
+  .babel {
+    margin-left: 40px;
+  }
+
+  .bali{
+    margin-left: 93px;
+  }
+
+  .jepang {
+    margin-left: 75px;
+  }
+
+  .maldives {
+    margin-left: 70px;
+  }
+
+  .labuan {
+    margin-left: 55px;
+  }
+
+  #footer-section {
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+  }
+
+  #footer-section img{
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 30px;
+  }
+
+  .navigation-header{
+    display: inline;
+    flex-wrap: wrap;
+    float: inline-start;
+    margin-left: -10px;
+  }
+
+  .navigation-header img{
+    margin-left: 169px;
+  } 
+
+
+
+
 
 
   /* For desktop: */
